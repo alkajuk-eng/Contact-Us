@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- || ADD STYLE SHEET -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- || ADD FONT AWESOME LIBRARY -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+    <body id="ContactUs">
+
+    <!--|| HEADER SECTION -->
+    <header>
+
+    <!--|| LOGO SYMBOL SECTION -->
+        <div class="logo-symbol">
+            <span class="typed"></span>
+        </div>
+
+    <!--|| LOGO TEXT SECTION -->   
+        <div class="logo-text">
+            <a href="#">Div&Script</a>            
+        </div>    
+
+    <!--|| NAVIGATION SECTION -->
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact Us</a></li>
+           </ul>
+        </nav>
+
+    <!--|| TOGGLEBTN SECTION -->
+           <button class="togglebtn">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark"></i>
+           </button>      
+    </header>
+
+    <!--|| MAIN SECTION -->
+    <main>
+        <!--|| TITLE SECTION -->
+        <div class="title">
+            <h2>Contact Us</h2>
+            <h4>We're here for anything you need. Just drop us a quick message below.We'll get back to you within 24 hours.</h4>
+        </div>
+
+        <!--|| BOX SECTION -->
+        <div class="box">
+            <!--|| FORM SECTION -->                            
+                <form class="contact form" action="https://api.web3forms.com/submit" method="POST">
+                    <!-- ADD FORM ACCESS KEY -->
+                    <input type="hidden" name="access_key" value="3b89fd18-b260-413b-9064-f1479e4af8ab">
+                    <h3>Send a Message</h3>
+                    
+                    <div class="inputbox">
+                    <input type="text" name="firstName" required>
+                    <label>First Name</label>
+                    </div>
+
+                    <div class="inputbox">
+                    <input type="text" name="surname" required>
+                    <label>Surname</label>
+                    </div>
+
+                    <div class="inputbox">
+                    <input type="email" name="email" required>
+                    <label>Email</label>
+                    </div>
+
+                    <div class="inputbox">
+                    <input type="text" name="phone" required>
+                    <label>Phone Number</label>
+                    </div>
+
+                    <div class="message">
+                    <textarea name="message" placeholder="Write your message here..." required></textarea>
+                    <label>Message</label>
+                    </div>
+
+                    <div class="inputbox">
+                    <input type="submit" value="Send">
+                    </div>
+                </form>
+
+            <!-- INFO BOX -->
+                <div class="contact info">
+                    <h3>Contact Info</h3>
+                    <div class="infoBox">
+                        <div class="info-item">
+                            <span><i class="fas fa-map-marker-alt"></i></span>
+                            <p>32 Watson Rd,<br> Nechells, <br>Birmingham <br> B7 5SA</p>
+                        </div>
+                        <div class="info-item">
+                            <span><i class="fa-regular fa-envelope"></i></span>
+                            <a href="mailto:IgorsKozlovs@outlook.com?subject=Hello">
+                                IgorsKozlovs@outlook.com
+                            </a>
+                        </div>
+                        <div class="info-item">
+                            <span><i class="fas fa-phone"></i></span>
+                            <a href="tel:+447429513899">+447 429 513 899</a>
+                        </div>
+
+                        <ul class="info-social">
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            <!-- MAP BOX -->
+            <div class="contact map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.
+                551345823849!2d-1.8592624237724436!3d52.50536053731379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+                1!3m3!1m2!1s0x487ba52e1da9bd17%3A0xb264ee9624b88859!2sTenpin%20Birmingham%20Star%20City!5e0!3m2!1sen!2suk!4v1779302883627!5m2!1sen!2suk"
+                  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+    </main>
+
+    <!--|| FOOTER SECTION -->
+    <footer> 
+    <!--|| NAVIGATION SECTION -->
+        <nav>
+            <ul class="menu footer">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#ContactUs">Contact Us</a></li>
+           </ul>
+        </nav>
+    </footer>
+
+    <!--|| SCRIPT SECTION -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
